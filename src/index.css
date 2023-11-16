@@ -1,0 +1,70 @@
+:root{
+  --css-primary:#34c94b;
+  --css-black:#121212;
+  --css-white:#FFF;
+
+}
+/* Box sizing rules */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Remove default margin */
+body,
+h1, h2, h3, h4, h5, h6,
+p, figure,
+blockquote, dl, dd, ol, ul,
+fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Set default styles for body */
+body {
+  line-height: 1.6;
+  font-family: 'poppins', 'sans-serif';
+}
+
+/* Remove default styles for the list */
+ol, ul {
+  list-style: none;
+}
+
+/* Remove default styles for links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default styles for tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove outline on focused elements */
+a:focus, button:focus {
+  outline: none;
+}
+
+/* Clear floated elements */
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+
