@@ -2,7 +2,6 @@
   --css-primary:#34c94b;
   --css-black:#121212;
   --css-white:#FFF;
-
 }
 /* Box sizing rules */
 html {
@@ -32,6 +31,7 @@ ul, ol {
 body {
   line-height: 1.6;
   font-family: 'poppins', 'sans-serif';
+  background-color: var(--css-black);
 }
 
 /* Remove default styles for the list */
