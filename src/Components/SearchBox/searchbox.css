@@ -34,7 +34,7 @@ input::placeholder {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     cursor: pointer;
-    right: 0; /* Adjust this value as needed */
+    right: 0;
 }
 
 .searchicon {

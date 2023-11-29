@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import Card from '../Card';
 import Carousel from '../Carousel'
 
-export default ({ navId, title, data}) => {
+export default ({ navId, title, data, songs}) => {
+    console.log("sectionSongs", songs)
 
     const [isCollapsed, setIsCollapsed] = useState(false);
     return (<div className='section'>
@@ -21,6 +22,7 @@ export default ({ navId, title, data}) => {
                     imgSrc={cardData.image}
                     label={cardData.title}
                     followersCount={cardData.follows}
+                    songs = {cardData.songs}
                     />)}
             </div>}
             </div>

@@ -25,10 +25,12 @@ export default ({navId, data}) =>{
     navigation={{ nextEl: `.arrow-right-${navId}`, prevEl: `.arrow-left-${navId}`}}
     virtual
   >
-    {data.map(cardData => <SwiperSlide key={cardData.id}><Card
+    {data.map(cardData => <SwiperSlide key={cardData.id}>
+      <Card
                     imgSrc={cardData.image}
                     label={cardData.title}
                     followersCount={cardData.follows}
+                    songs={cardData.songs}
                     /></SwiperSlide>)}
   </Swiper>
   <div className={`arrow-left-${navId} arrow-left arrow`}><img src='./leftIcon.png' /></div>
