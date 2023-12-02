@@ -7,6 +7,8 @@ import HeroSection from './Components/HeroSection/index';
 import Card from './Components/Card';
 import Section from './Components/Section';
 import FilterSection from './Components/FilterSection';
+// import { Accordion } from '@mui/material';
+import Accordion from "./Components/Accordion";
 
 const App = () => {
   const ENDPOINT = "https://qtify-backend-labs.crio.do/";
@@ -57,6 +59,13 @@ const App = () => {
           }
         }}
       />
+      <h1 style={{
+        textAlign:"center",
+        color:"var(--css-white)",
+        paddingBottom:"10px"
+      }}>FAQs</h1>
+      <Accordion title="Is Qtify free to use?" content="Yes! it is 100% free, and has 0% ads!" />
+      <Accordion title="Can i download and listen to songs offline?" content="Sorry, unfortunately we don't provide the service todownload any songs." />
       
     </>
   );

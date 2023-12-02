@@ -13,7 +13,7 @@ export default () => {
         <img src="./Search-icon.svg" alt="Search Icon" className='searchicon'/>
       </button>
     </form>
-    <Menu data={[1,2,3,4,5,6,7,8]}/>
+    {/* <Menu data={[1,2,3,4,5,6,7,8]}/> */}
 
     
     </div>
